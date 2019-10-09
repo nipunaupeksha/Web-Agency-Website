@@ -413,3 +413,74 @@ nav ul li a:hover{
     background:#e6af2e;
     color:#191716; 
 }
+
+/*posts*/
+#posts{
+    background:#beb7a4;
+    padding:20px 0 80px 0;
+}
+
+.post-container{
+    max-width:90vw;
+    margin:0 auto;
+}
+
+.post-item{
+    background-color:#e0e2db;
+    color:#191716;
+    margin:20px 0;
+}
+
+#posts img{
+    width:100%;
+    display: block;
+}
+
+.img-container{
+    position:relative;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.img-container .fa{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size:50px;
+    color:#e6af2e;
+    transition: opacity 4s;
+    opacity: 0;
+}
+
+.img-container:hover{
+    opacity:0.4;
+}
+
+img-container:hover .fa{
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
